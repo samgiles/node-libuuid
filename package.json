@@ -1,38 +1,32 @@
 {
-    "name": "node-libuuid",
-        "version": "0.0.1",
-        "description": "Node JS wrapper around libuuid",
-        "main": "lib/index.js",
-        "bugs": "https://github.com/samgiles/node-libuuid/issues",
-        "homepage": "https://github.com/samgiles/node-libuuid",
-        "repository" : {
-            "type" : "git",
-            "url" : "http://github.com/samgiles/node-libuuid.git"
-        },
-        "author":
-        {
-            "name": "Samuel Giles",
-            "email": "sam@samgil.es",
-            "url": "http://samgil.es"
-        },
-    "dependencies": {
-        "node-gyp": "^1.0.1"
-    },
-        "devDependencies": {
-            "benchmark": "^1.0.0",
-            "node-uuid": "^1.4.1"
-        },
-        "scripts": {
-            "install": "node-gyp rebuild",
-            "bench": "node bench/test.js"
-        },
-        "keywords": [
-            "uuid",
-        "libuuid",
-        "RFC4122",
-        "guid"
-            ],
-        "author": "Samuel Giles",
-        "license": "GPLv2",
-        "gypfile": true
+  "name": "node-libuuid",
+  "version": "1.0.0",
+  "description": "Node JS wrapper around libuuid",
+  "main": "lib/index.js",
+  "bugs": "https://github.com/samgiles/node-libuuid/issues",
+  "homepage": "https://github.com/samgiles/node-libuuid",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/samgiles/node-libuuid.git"
+  },
+  "author": "Samuel Giles",
+  "dependencies": {
+    "node-gyp": "^1.0.1"
+  },
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "node-uuid": "^1.4.1"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "bench": "node bench/test.js"
+  },
+  "keywords": [
+    "uuid",
+    "libuuid",
+    "RFC4122",
+    "guid"
+  ],
+  "license": "GPLv2",
+  "gypfile": true
 }
