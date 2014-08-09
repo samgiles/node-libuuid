@@ -2,6 +2,10 @@
 
 Simple `node` binding to the native libuuid implementation.
 
+## Install
+
+`npm install node-libuuid`
+
 # API
 
 ### libuuid.v1()
