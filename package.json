@@ -1,0 +1,23 @@
+{
+  "name": "node-libuuid",
+  "version": "0.0.1",
+  "description": "Node JS wrapper around libuuid",
+  "main": "lib/index.js",
+  "dependencies": {
+    "node-gyp": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --recursive",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "uuid",
+    "libuuid",
+    "RFC4122",
+    "guid"
+  ],
+  "author": "Samuel Giles",
+  "license": "GPLv2",
+  "gypfile": true
+}
