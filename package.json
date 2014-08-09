@@ -6,10 +6,13 @@
   "dependencies": {
     "node-gyp": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "node-uuid": "^1.4.1"
+  },
   "scripts": {
-    "test": "mocha --recursive",
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "bench": "node bench/test.js"
   },
   "keywords": [
     "uuid",
