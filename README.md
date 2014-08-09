@@ -1,9 +1,19 @@
 # Node libuuid
 
-Simple node binding to the native libuuid implementation.
+Simple `node` binding to the native libuuid implementation.
 
-```JS
-> var libuuid = require('node-libuuid');
-> libuuid.generate();
-'C0926E03-A4C0-46BF-8F7D-C7B650EAEFF3'
-```
+# API
+
+### libuuid.v1()
+
+Generate and return a time based UUID.
+
+Returns the `string` form of the UUID.
+
+### libuuid.v4()
+
+Generate and return a secure random UUID (see `uuid_generate_random(3)`)
+
+Returns the `string` form of the UUID.
+
+
