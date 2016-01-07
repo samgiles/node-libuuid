@@ -6,6 +6,11 @@ Simple `node` binding to the native libuuid implementation.
 
 `npm install node-libuuid`
 
+## Node Version support
+
+v1.0 Supports older versions of Node - pre version 4.
+v2.0 From this version newer versions of Node are supported.
+
 # API
 
 ### libuuid.v1()
