@@ -1,6 +1,6 @@
 {
   "name": "node-libuuid",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Node JS wrapper around libuuid",
   "main": "lib/index.js",
   "bugs": "https://github.com/samgiles/node-libuuid/issues",
